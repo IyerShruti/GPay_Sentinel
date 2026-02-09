@@ -1,0 +1,19 @@
+# Protect your credentials
+.env
+
+# Jupyter Notebook checkpoints (very messy on GitHub)
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python caches
+__pycache__/
+*.py[cod]
+
+# Large data or temporary files
+*.csv
+*.json
+# (Only include the above if you don't want your datasets on GitHub)
+
+# System files
+.DS_Store
+Thumbs.db
